@@ -1,0 +1,12 @@
+{
+  "timezones": [
+    "Local",
+    "UTC",
+    "US/Eastern",
+    "Europe/London",
+    "Europe/Malta",
+    "Australia/Sydney",
+    "Pacific/Auckland"
+  ]
+}
+
