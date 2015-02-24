@@ -40,6 +40,6 @@ func timeIn(cmd *cobra.Command, args []string) {
 		}
 		t := time.Now()
 		in := t.In(loc)
-		fmt.Fprintf(os.Stdout, "%20s %s\n", z, in.Format("2006-01-02 15:04:05 -0700 MST"))
+		fmt.Fprintf(os.Stdout, "%-40s %30s\n", in.Format("2006-01-02 15:04:05 -0700 MST"), z)
 	}
 }
